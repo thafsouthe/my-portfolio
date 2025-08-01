@@ -1,41 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+```markdown
+# 🌐 My Portfolio Website
 
-## Getting Started
+This is my personal portfolio website built using **Next.js**. It showcases my profile, skills, and projects, and includes a contact section for networking or job opportunities.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🚀 Technologies Used
+
+- [Next.js](https://nextjs.org/) – React framework for building server-side rendered apps
+- CSS Modules – Scoped and modular CSS styling
+- Git & GitHub – Version control and code hosting
+- Vercel – Deployment platform for modern frontends
+
+---
+
+## 📁 Project Structure
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+src/
+│
+├── assets/            → Images and static content
+├── components/        → Reusable components (Header, Footer, etc.)
+├── pages/             → Page-based routing (index, about, projects, contact)
+├── styles/            → CSS Modules for each page/component
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+---
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+## 📄 Pages & Features
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### ✅ Home (`/`)
+- Welcome section with name and intro
 
-## Learn More
+### ✅ About (`/about`)
+- Bio, skills, interests
+- Responsive grid layout and styled section boxes
 
-To learn more about Next.js, take a look at the following resources:
+### ✅ Projects (`/projects`)
+- Project cards with image, title, description, and link
+- Grid layout, hover animations
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+### ✅ Contact (`/contact`)
+- Contact details and clickable links
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🎨 Styling
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- All styles are scoped using **CSS Modules**
+- Layouts are mobile-friendly and visually clean
+- Uses hover transitions and clean UI design
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
-# my-portfolio
+---
+
+## 📷 Images
+
+Project and profile images are stored inside `public/` and referenced via standard `<img>` or Next.js `<Image>` components.
+
+---
+
+## 🚀 Deployment
+
+Deployed with [Vercel](https://vercel.com/).  
+🔗 Live Site: [https://your-portfolio-url.vercel.app](https://your-portfolio-url.vercel.app)
+
+---
+
+## 🙋‍♂️ Author
+
+**HASSANI Thafsouthe** – web Developer in training  
+Learning React & Next.js | Passionate about building clean, responsive UIs
+
+---
+
+## 📌 Checkpoint Project Summary
+
+This portfolio was built as part of a learning checkpoint project covering:
+
+- ✅ Initializing a Next.js project
+- ✅ Styling components
+- ✅ Displaying images
+- ✅ Page-based routing
+- ✅ Rendering strategies (static pages)
+- ✅ Deploying to Vercel
+
+---

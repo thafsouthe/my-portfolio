@@ -1,0 +1,24 @@
+.container {
+  padding: 2rem;
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.8;
+}
+
+.contactList {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.contactList li {
+  margin-bottom: 0.5rem;
+}
+
+.contactList a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.contactList a:hover {
+  text-decoration: underline;
+}
