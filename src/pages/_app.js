@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import '../styles/globals.css';
 import Navbar from '../components/Navbar';
 
