@@ -5,7 +5,7 @@ export default function Projects() {
   return (
     <div className={styles.container}>
       <h1>Projects</h1>
-      <p className={styles.subtitle}>Here are a few projects I've been working on lately:</p>
+      <p className={styles.subtitle}>Here are a few projects I&ve been working on lately:</p>
       <div className={styles.grid}>
         <div className={styles.card}>
           <img src="/project1.jpg" alt="Project 1" />

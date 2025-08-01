@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <div className={styles.container}>
       <h1>Contact Me</h1>
-      <p>If you'd like to get in touch, feel free to send me a message!</p>
+      <p>If you&d like to get in touch, feel free to send me a message!</p>
       <ul className={styles.contactList}>
         <li>Email: your.email@example.com</li>
         <li>
