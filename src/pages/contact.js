@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import styles from '../styles/Contact.module.css';
 
 export default function Contact() {
