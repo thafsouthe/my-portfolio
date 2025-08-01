@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css';
 export default function Home() {
   return (
     <div className={styles.container}>
-      <h1>Hello, I&lsquo;m HASSANI Thafsouthe</h1>
+      <h1>Hello, I am HASSANI Thafsouthe</h1>
       <Image
         src="/profile.jpg"
         alt="Profile"
@@ -12,7 +12,7 @@ export default function Home() {
         height={150}
         className={styles.profileImage}
       />
-      <p>Welcome to my portfolio website. I&aposm a web developer specializing in React and Next.js.</p>
+      <p>Welcome to my portfolio website. I am a web developer specializing in React and Next.js.</p>
     </div>
   );
 }
