@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 import styles from '../styles/About.module.css';
 
 export default function About() {
@@ -7,8 +6,8 @@ export default function About() {
       <h1>About Me</h1>
       <div className={styles.grid}>
         <div className={styles.bio}>
-          <p>Hello! I&m <strong>HASSANI Thafsouthe</strong>, a passionate web developer with a love for clean design and efficient code.</p>
-          <p>Right now, I&m focused on mastering React and Next.js, building modern, responsive, and performant web applications.</p>
+          <p>Hello! I&aposm <strong>HASSANI Thafsouthe</strong>, a passionate web developer with a love for clean design and efficient code.</p>
+          <p>Right now, I&aposm focused on mastering React and Next.js, building modern, responsive, and performant web applications.</p>
           <p>My goal is to create digital experiences that are user-friendly and visually appealing.</p>
         </div>
         <div className={styles.details}>
